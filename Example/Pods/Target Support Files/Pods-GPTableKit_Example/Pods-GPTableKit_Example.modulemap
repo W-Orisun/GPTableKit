@@ -1,0 +1,6 @@
+framework module Pods_GPTableKit_Example {
+  umbrella header "Pods-GPTableKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

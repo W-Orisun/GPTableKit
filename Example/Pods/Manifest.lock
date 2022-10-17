@@ -1,0 +1,16 @@
+PODS:
+  - GPTableKit (0.1.0)
+
+DEPENDENCIES:
+  - GPTableKit (from `../`)
+
+EXTERNAL SOURCES:
+  GPTableKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GPTableKit: 8259ab088ed710991ec03d1435aac1ee092c8704
+
+PODFILE CHECKSUM: ebe93b9165d7496369e04d29c2a97d900bbdaba3
+
+COCOAPODS: 1.11.3

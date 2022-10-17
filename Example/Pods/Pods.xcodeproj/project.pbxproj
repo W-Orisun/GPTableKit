@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C34ABDE913C5721D341BA012973FE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		334DC78CCBF6C5D5EFD18EDCBF777A7D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C64604CFC0024D9DCB00E873A3C60CC5 /* ReplaceMe.m */; };
+		39041609B6FB642240A1A8E7C80AECBC /* Pods-GPTableKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8C5AED66A15C9F8BED33C9BC18FCA /* Pods-GPTableKit_Example-dummy.m */; };
+		6DFC680B42A3E35D76CF678330042021 /* GPTableKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C78C1F79F959FD993E4FE469B1FA9479 /* GPTableKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8610BC92487DA8A00E3836782E561839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AB34E757034A43C8D1E05D741D8089C9 /* Pods-GPTableKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3062A918BD3911B1A8C1A1F8B5F32CF8 /* Pods-GPTableKit_Tests-dummy.m */; };
+		BF9B5303DA247508582746DBC4DE660F /* Pods-GPTableKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95736EBB31C0EF27AD7CF8368B42152B /* Pods-GPTableKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C222F7FB6255E8FBB4180EC888E10D56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D37E4E673803F6B9119A4130F896F979 /* GPTableKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7BC166F66E99D1A29D6EE0A430A87 /* GPTableKit-dummy.m */; };
+		DB2A73843C46B3DD4C7B0FF703FD522D /* Pods-GPTableKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17CF55AEE08A4B1DF62EDCE34478C75F /* Pods-GPTableKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF658DB348D66E7E2620DD42C7A3E6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E7029A3FEE3DF7EDEA7D9A20834960;
+			remoteInfo = "Pods-GPTableKit_Example";
+		};
+		D0A33E5F314DA997EB74252BCA09A6E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C30DCE461939A52A57A18E7141D7B56;
+			remoteInfo = GPTableKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		099E910FCC80C8781EAACB2554EA6322 /* Pods-GPTableKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPTableKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0A521E76BCE556C98C95DF6F6628852B /* GPTableKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPTableKit.release.xcconfig; sourceTree = "<group>"; };
+		0F1BC9602BAE07CC04086E66493FECF5 /* Pods-GPTableKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPTableKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1470C5A940260AFEAC99EB6C2E348F03 /* Pods-GPTableKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GPTableKit_Tests"; path = Pods_GPTableKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D6C3507C35CF8E678F54FAB56258C2 /* Pods-GPTableKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPTableKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		17CF55AEE08A4B1DF62EDCE34478C75F /* Pods-GPTableKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPTableKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2191DF10FEE1028508C327CCE02DBF08 /* Pods-GPTableKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPTableKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3062A918BD3911B1A8C1A1F8B5F32CF8 /* Pods-GPTableKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPTableKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		36F35E1C5D0668352F6705D96E3D1983 /* Pods-GPTableKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPTableKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		43105395C5909570804AF4A0EB7972CA /* Pods-GPTableKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPTableKit_Tests.modulemap"; sourceTree = "<group>"; };
+		4A7BBC0233002191215D36A4A437F829 /* Pods-GPTableKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPTableKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		58E6CCEEC33D968BDFE893EA362E0BFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		85D50FDA6A4D818794B2E05D2CCB5709 /* GPTableKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPTableKit.debug.xcconfig; sourceTree = "<group>"; };
+		87FD0D2A186228A0D507BBF8B7442235 /* GPTableKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GPTableKit.modulemap; sourceTree = "<group>"; };
+		8DD8C5AED66A15C9F8BED33C9BC18FCA /* Pods-GPTableKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPTableKit_Example-dummy.m"; sourceTree = "<group>"; };
+		8DDEE28E4658F333F63C348EE89CBC5F /* GPTableKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPTableKit-prefix.pch"; sourceTree = "<group>"; };
+		92ECB58997D55A63C398071807BFEA16 /* Pods-GPTableKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPTableKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95736EBB31C0EF27AD7CF8368B42152B /* Pods-GPTableKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPTableKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08002A2EE54328C34C9A647C9481991 /* GPTableKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GPTableKit-Info.plist"; sourceTree = "<group>"; };
+		A0B2E4688E41A9C2098A42E467E1A93E /* Pods-GPTableKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPTableKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3B6A09B60E8543898BA1D8534A395F2 /* Pods-GPTableKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPTableKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B29D97BEDDE6266AC611C6E26DFFEF3A /* Pods-GPTableKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPTableKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B989A5C4B896E727628B60032BB16F12 /* GPTableKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GPTableKit; path = GPTableKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64604CFC0024D9DCB00E873A3C60CC5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GPTableKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C78C1F79F959FD993E4FE469B1FA9479 /* GPTableKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPTableKit-umbrella.h"; sourceTree = "<group>"; };
+		C79F3A7D18ACA07C4BB86757C7DB6E1D /* GPTableKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GPTableKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D23345B5B29EB47B4ACA74AB3EC8BE60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E5C7BC166F66E99D1A29D6EE0A430A87 /* GPTableKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GPTableKit-dummy.m"; sourceTree = "<group>"; };
+		F3D9811BA480885B226734FD3791B4DA /* Pods-GPTableKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPTableKit_Example.modulemap"; sourceTree = "<group>"; };
+		F6242A0B5114D90E9241E7A51CC8FF06 /* Pods-GPTableKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GPTableKit_Example"; path = Pods_GPTableKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1E2964006D8CB551B59D99C75D6EF9 /* Pods-GPTableKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPTableKit_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		815869148AA1FAC9E091894B0CAF12E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C34ABDE913C5721D341BA012973FE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6B4FEF7E3986E52C3E06881D0CE0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C222F7FB6255E8FBB4180EC888E10D56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AA70E95EDD1DB0EB06D86D8A7C4974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8610BC92487DA8A00E3836782E561839 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0361BE28C065862B30F6C845E98B3B83 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16DCEE3304B61C3D0D922FCD2C5D159A /* Pods-GPTableKit_Example */,
+				CB434715FC76500DBF51771540CFC131 /* Pods-GPTableKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		16DCEE3304B61C3D0D922FCD2C5D159A /* Pods-GPTableKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F3D9811BA480885B226734FD3791B4DA /* Pods-GPTableKit_Example.modulemap */,
+				92ECB58997D55A63C398071807BFEA16 /* Pods-GPTableKit_Example-acknowledgements.markdown */,
+				36F35E1C5D0668352F6705D96E3D1983 /* Pods-GPTableKit_Example-acknowledgements.plist */,
+				8DD8C5AED66A15C9F8BED33C9BC18FCA /* Pods-GPTableKit_Example-dummy.m */,
+				15D6C3507C35CF8E678F54FAB56258C2 /* Pods-GPTableKit_Example-frameworks.sh */,
+				FF1E2964006D8CB551B59D99C75D6EF9 /* Pods-GPTableKit_Example-Info.plist */,
+				95736EBB31C0EF27AD7CF8368B42152B /* Pods-GPTableKit_Example-umbrella.h */,
+				0F1BC9602BAE07CC04086E66493FECF5 /* Pods-GPTableKit_Example.debug.xcconfig */,
+				A3B6A09B60E8543898BA1D8534A395F2 /* Pods-GPTableKit_Example.release.xcconfig */,
+			);
+			name = "Pods-GPTableKit_Example";
+			path = "Target Support Files/Pods-GPTableKit_Example";
+			sourceTree = "<group>";
+		};
+		2671F57594A77081D6E173E5C6CC5995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B989A5C4B896E727628B60032BB16F12 /* GPTableKit */,
+				F6242A0B5114D90E9241E7A51CC8FF06 /* Pods-GPTableKit_Example */,
+				1470C5A940260AFEAC99EB6C2E348F03 /* Pods-GPTableKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		301485C879C30276EB1B4EAF61B8E281 /* GPTableKit */ = {
+			isa = PBXGroup;
+			children = (
+				C64604CFC0024D9DCB00E873A3C60CC5 /* ReplaceMe.m */,
+				951B8AD65B84A2A5A7AE5C44CFB6E695 /* Pod */,
+				651316FBF74EB3F7922260CFF32565E5 /* Support Files */,
+			);
+			name = GPTableKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		651316FBF74EB3F7922260CFF32565E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87FD0D2A186228A0D507BBF8B7442235 /* GPTableKit.modulemap */,
+				E5C7BC166F66E99D1A29D6EE0A430A87 /* GPTableKit-dummy.m */,
+				A08002A2EE54328C34C9A647C9481991 /* GPTableKit-Info.plist */,
+				8DDEE28E4658F333F63C348EE89CBC5F /* GPTableKit-prefix.pch */,
+				C78C1F79F959FD993E4FE469B1FA9479 /* GPTableKit-umbrella.h */,
+				85D50FDA6A4D818794B2E05D2CCB5709 /* GPTableKit.debug.xcconfig */,
+				0A521E76BCE556C98C95DF6F6628852B /* GPTableKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GPTableKit";
+			sourceTree = "<group>";
+		};
+		951B8AD65B84A2A5A7AE5C44CFB6E695 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C79F3A7D18ACA07C4BB86757C7DB6E1D /* GPTableKit.podspec */,
+				D23345B5B29EB47B4ACA74AB3EC8BE60 /* LICENSE */,
+				58E6CCEEC33D968BDFE893EA362E0BFA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C9A745E94EAF1BA5AF69D457B3B68A51 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				301485C879C30276EB1B4EAF61B8E281 /* GPTableKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CB434715FC76500DBF51771540CFC131 /* Pods-GPTableKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				43105395C5909570804AF4A0EB7972CA /* Pods-GPTableKit_Tests.modulemap */,
+				A0B2E4688E41A9C2098A42E467E1A93E /* Pods-GPTableKit_Tests-acknowledgements.markdown */,
+				2191DF10FEE1028508C327CCE02DBF08 /* Pods-GPTableKit_Tests-acknowledgements.plist */,
+				3062A918BD3911B1A8C1A1F8B5F32CF8 /* Pods-GPTableKit_Tests-dummy.m */,
+				4A7BBC0233002191215D36A4A437F829 /* Pods-GPTableKit_Tests-Info.plist */,
+				17CF55AEE08A4B1DF62EDCE34478C75F /* Pods-GPTableKit_Tests-umbrella.h */,
+				B29D97BEDDE6266AC611C6E26DFFEF3A /* Pods-GPTableKit_Tests.debug.xcconfig */,
+				099E910FCC80C8781EAACB2554EA6322 /* Pods-GPTableKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-GPTableKit_Tests";
+			path = "Target Support Files/Pods-GPTableKit_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C9A745E94EAF1BA5AF69D457B3B68A51 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2671F57594A77081D6E173E5C6CC5995 /* Products */,
+				0361BE28C065862B30F6C845E98B3B83 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		31AE8BDAE48A523774A31FFC5D2BF30A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2A73843C46B3DD4C7B0FF703FD522D /* Pods-GPTableKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EBB67B6B23B14A63E6B6968C9764234 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9B5303DA247508582746DBC4DE660F /* Pods-GPTableKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F8EA64BB7CC0A80533E192A164627C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFC680B42A3E35D76CF678330042021 /* GPTableKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C30DCE461939A52A57A18E7141D7B56 /* GPTableKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0D075B0BBF8C14890C824D1949DEF1 /* Build configuration list for PBXNativeTarget "GPTableKit" */;
+			buildPhases = (
+				F3F8EA64BB7CC0A80533E192A164627C /* Headers */,
+				080963174F5A404D29E64DD89FBB45BF /* Sources */,
+				D7AA70E95EDD1DB0EB06D86D8A7C4974 /* Frameworks */,
+				2ACB6188A8159B033EF9B06307DC6807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPTableKit;
+			productName = GPTableKit;
+			productReference = B989A5C4B896E727628B60032BB16F12 /* GPTableKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		65E7029A3FEE3DF7EDEA7D9A20834960 /* Pods-GPTableKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5726DD80F0C4BD858854D463ADB0EDC /* Build configuration list for PBXNativeTarget "Pods-GPTableKit_Example" */;
+			buildPhases = (
+				4EBB67B6B23B14A63E6B6968C9764234 /* Headers */,
+				6C8930BAB602F82DC84C323D7B124629 /* Sources */,
+				AE6B4FEF7E3986E52C3E06881D0CE0C6 /* Frameworks */,
+				94206721D4BE755B776CD8814E8FB166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B4A2805E5F679216606446DA22998BD /* PBXTargetDependency */,
+			);
+			name = "Pods-GPTableKit_Example";
+			productName = Pods_GPTableKit_Example;
+			productReference = F6242A0B5114D90E9241E7A51CC8FF06 /* Pods-GPTableKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE4DDE56A4D52BCE0E4FA0B654C1D89F /* Pods-GPTableKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE5362B15E0B0C135B9C3040A01B4E9 /* Build configuration list for PBXNativeTarget "Pods-GPTableKit_Tests" */;
+			buildPhases = (
+				31AE8BDAE48A523774A31FFC5D2BF30A /* Headers */,
+				7BA17A494119EFD9FF98F706BDA56F92 /* Sources */,
+				815869148AA1FAC9E091894B0CAF12E6 /* Frameworks */,
+				3E9579069849FDA5477F610E0964DDC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				812A81682F979DD828B69940AE1392F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-GPTableKit_Tests";
+			productName = Pods_GPTableKit_Tests;
+			productReference = 1470C5A940260AFEAC99EB6C2E348F03 /* Pods-GPTableKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2671F57594A77081D6E173E5C6CC5995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C30DCE461939A52A57A18E7141D7B56 /* GPTableKit */,
+				65E7029A3FEE3DF7EDEA7D9A20834960 /* Pods-GPTableKit_Example */,
+				AE4DDE56A4D52BCE0E4FA0B654C1D89F /* Pods-GPTableKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ACB6188A8159B033EF9B06307DC6807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9579069849FDA5477F610E0964DDC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94206721D4BE755B776CD8814E8FB166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		080963174F5A404D29E64DD89FBB45BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37E4E673803F6B9119A4130F896F979 /* GPTableKit-dummy.m in Sources */,
+				334DC78CCBF6C5D5EFD18EDCBF777A7D /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8930BAB602F82DC84C323D7B124629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39041609B6FB642240A1A8E7C80AECBC /* Pods-GPTableKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA17A494119EFD9FF98F706BDA56F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB34E757034A43C8D1E05D741D8089C9 /* Pods-GPTableKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		812A81682F979DD828B69940AE1392F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GPTableKit_Example";
+			target = 65E7029A3FEE3DF7EDEA7D9A20834960 /* Pods-GPTableKit_Example */;
+			targetProxy = CF658DB348D66E7E2620DD42C7A3E6D5 /* PBXContainerItemProxy */;
+		};
+		9B4A2805E5F679216606446DA22998BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPTableKit;
+			target = 4C30DCE461939A52A57A18E7141D7B56 /* GPTableKit */;
+			targetProxy = D0A33E5F314DA997EB74252BCA09A6E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0158EC3F8D9935B134224C4E40DB8A87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B6A09B60E8543898BA1D8534A395F2 /* Pods-GPTableKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPTableKit_Example/Pods-GPTableKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPTableKit_Example/Pods-GPTableKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25214B86931E069FDE0A7757BAAC9F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A521E76BCE556C98C95DF6F6628852B /* GPTableKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GPTableKit/GPTableKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GPTableKit/GPTableKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GPTableKit/GPTableKit.modulemap";
+				PRODUCT_MODULE_NAME = GPTableKit;
+				PRODUCT_NAME = GPTableKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5133AA01210753C6DD49AC03A280565F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099E910FCC80C8781EAACB2554EA6322 /* Pods-GPTableKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPTableKit_Tests/Pods-GPTableKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPTableKit_Tests/Pods-GPTableKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A61ED0738ABF1EC24BB90A4E4E4E19B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85D50FDA6A4D818794B2E05D2CCB5709 /* GPTableKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GPTableKit/GPTableKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GPTableKit/GPTableKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GPTableKit/GPTableKit.modulemap";
+				PRODUCT_MODULE_NAME = GPTableKit;
+				PRODUCT_NAME = GPTableKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BE6BB60716D3C9407920C70C9B7AF393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1BC9602BAE07CC04086E66493FECF5 /* Pods-GPTableKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPTableKit_Example/Pods-GPTableKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPTableKit_Example/Pods-GPTableKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB326372CE66DC932D70E9FCE99EEED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29D97BEDDE6266AC611C6E26DFFEF3A /* Pods-GPTableKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPTableKit_Tests/Pods-GPTableKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPTableKit_Tests/Pods-GPTableKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0D075B0BBF8C14890C824D1949DEF1 /* Build configuration list for PBXNativeTarget "GPTableKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A61ED0738ABF1EC24BB90A4E4E4E19B /* Debug */,
+				25214B86931E069FDE0A7757BAAC9F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE5362B15E0B0C135B9C3040A01B4E9 /* Build configuration list for PBXNativeTarget "Pods-GPTableKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB326372CE66DC932D70E9FCE99EEED0 /* Debug */,
+				5133AA01210753C6DD49AC03A280565F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5726DD80F0C4BD858854D463ADB0EDC /* Build configuration list for PBXNativeTarget "Pods-GPTableKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6BB60716D3C9407920C70C9B7AF393 /* Debug */,
+				0158EC3F8D9935B134224C4E40DB8A87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

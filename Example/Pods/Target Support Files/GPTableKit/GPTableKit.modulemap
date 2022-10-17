@@ -1,0 +1,6 @@
+framework module GPTableKit {
+  umbrella header "GPTableKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
