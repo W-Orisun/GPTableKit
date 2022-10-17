@@ -8,67 +8,101 @@
 
 /* Begin PBXBuildFile section */
 		05C34ABDE913C5721D341BA012973FE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		334DC78CCBF6C5D5EFD18EDCBF777A7D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C64604CFC0024D9DCB00E873A3C60CC5 /* ReplaceMe.m */; };
+		22998D8CE64E7777A6649640E6A04B63 /* GPTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = D880478CDEB4A394BAB3C15858E924B8 /* GPTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A6ED42966545A5E4AC6067F40613433 /* GPTableViewDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 670330CD97877E572F0F4556CC1F1285 /* GPTableViewDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39041609B6FB642240A1A8E7C80AECBC /* Pods-GPTableKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8C5AED66A15C9F8BED33C9BC18FCA /* Pods-GPTableKit_Example-dummy.m */; };
-		6DFC680B42A3E35D76CF678330042021 /* GPTableKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C78C1F79F959FD993E4FE469B1FA9479 /* GPTableKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8610BC92487DA8A00E3836782E561839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4B4331142B413264015AC3E94D86CAC8 /* GPTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 209944480373F7B5F7C396596B49CE02 /* GPTableRow.m */; };
+		4FB7EC66BE076141C29F72CCE7F3E64C /* GPTableKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 602767D0D546C10BC80A889B830779FF /* GPTableKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		545966B8C2B0D1BA8A94E402FA60B4D0 /* GPNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 891F31F6C0389EE88A11BA6AD8B136EC /* GPNode.m */; };
+		5557C052C0A2FA66E2D1BEBA315C1875 /* GPTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5CAC11E9B4B3957E73968CDDF9F023 /* GPTableDataSource.m */; };
+		5C3E221EECAD72155C492F82D8612854 /* GPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C55AD2A3200CE22CF60C89CF93EE4 /* GPTableViewController.m */; };
+		75C551A0D1D9DE31705874498E78CB58 /* GPTableKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4170B9973623D7574F731C9A09ABCC98 /* GPTableKit-dummy.m */; };
+		7A6783357DB115B6160451E1B58AFBC6 /* GPNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B69A6D6988F1CCD5A1C9BA1AE2CBF7FA /* GPNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81EDC2F214ED53F99A37ABC473B640CD /* GPTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB14735FFA9728DDB7D15DE1A6162D6 /* GPTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8557383109EE802BF39757510BF11FC0 /* GPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2C7B6DFE4B86911F7883F0E1E270E3 /* GPTableViewCell.m */; };
+		94BBBB7B40868C770118E90038EB0AE7 /* GPTableViewDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6219E8A7DE9B5BCF766623AF80EC84B /* GPTableViewDelegateProxy.m */; };
+		9A6E5BC79D8DDB3664DD47D3AD56AA40 /* GPTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = D60378C314A92DD9DB453C3A1E0E2B88 /* GPTableRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FFB4D1C3242C54794D9D7AD94B9FF93 /* GPTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA76AE9D19212672E6257EF3539AA71E /* GPTableView.m */; };
 		AB34E757034A43C8D1E05D741D8089C9 /* Pods-GPTableKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3062A918BD3911B1A8C1A1F8B5F32CF8 /* Pods-GPTableKit_Tests-dummy.m */; };
+		ADE40962971C2F446A8F73F9B32E0243 /* NSArray+GPUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D4B903CFD7298E9451FDDED9F1BE61 /* NSArray+GPUtil.m */; };
+		BE7A75F30529FA91893DDDF89EB3C92F /* GPTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A3508C9EA36AB0726DAC8D8F0A590 /* GPTableSection.m */; };
 		BF9B5303DA247508582746DBC4DE660F /* Pods-GPTableKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95736EBB31C0EF27AD7CF8368B42152B /* Pods-GPTableKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C222F7FB6255E8FBB4180EC888E10D56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D37E4E673803F6B9119A4130F896F979 /* GPTableKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7BC166F66E99D1A29D6EE0A430A87 /* GPTableKit-dummy.m */; };
+		C6B84AE5AAA0D928E1830F8D69D7AFB0 /* NSArray+GPUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B99C5C1310790D3437F4C74528F342F /* NSArray+GPUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3A32D9F2798922A240277156F357485 /* GPTableDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CDF414441EDDD37DA9032A061727D35 /* GPTableDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6B758706FBD528FEA61E1C3EBB44D45 /* GPTableSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 867E79432C5568B78A952FEA7E2B2D75 /* GPTableSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB2A73843C46B3DD4C7B0FF703FD522D /* Pods-GPTableKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17CF55AEE08A4B1DF62EDCE34478C75F /* Pods-GPTableKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F388D45CD29FC0D7C60C40724AA81567 /* GPTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 211BED5DBB5892F0B7FEC026EA191571 /* GPTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8E3F97FB04D1566EF201CC16985F4E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CF658DB348D66E7E2620DD42C7A3E6D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 65E7029A3FEE3DF7EDEA7D9A20834960;
-			remoteInfo = "Pods-GPTableKit_Example";
-		};
-		D0A33E5F314DA997EB74252BCA09A6E6 /* PBXContainerItemProxy */ = {
+		65D07CF4351CD0B61ED08D838160E56A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4C30DCE461939A52A57A18E7141D7B56;
 			remoteInfo = GPTableKit;
 		};
+		9A02C2894F50CB443A12EB746FE7FF29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E7029A3FEE3DF7EDEA7D9A20834960;
+			remoteInfo = "Pods-GPTableKit_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		099E910FCC80C8781EAACB2554EA6322 /* Pods-GPTableKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPTableKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0A521E76BCE556C98C95DF6F6628852B /* GPTableKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPTableKit.release.xcconfig; sourceTree = "<group>"; };
+		09BABAE7A646114479A4AAA5E77D5547 /* GPTableKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GPTableKit-Info.plist"; sourceTree = "<group>"; };
+		0A82A0C1C57BA951ED946F34B5254CFA /* GPTableKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GPTableKit.modulemap; sourceTree = "<group>"; };
+		0E5CAC11E9B4B3957E73968CDDF9F023 /* GPTableDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTableDataSource.m; sourceTree = "<group>"; };
 		0F1BC9602BAE07CC04086E66493FECF5 /* Pods-GPTableKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPTableKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0F299DB34B6CA5A3DDEAEBC5D7007A27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1470C5A940260AFEAC99EB6C2E348F03 /* Pods-GPTableKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GPTableKit_Tests"; path = Pods_GPTableKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D6C3507C35CF8E678F54FAB56258C2 /* Pods-GPTableKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPTableKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		17CF55AEE08A4B1DF62EDCE34478C75F /* Pods-GPTableKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPTableKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		209944480373F7B5F7C396596B49CE02 /* GPTableRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTableRow.m; sourceTree = "<group>"; };
+		211BED5DBB5892F0B7FEC026EA191571 /* GPTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPTableViewCell.h; sourceTree = "<group>"; };
 		2191DF10FEE1028508C327CCE02DBF08 /* Pods-GPTableKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPTableKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		23D0D86BC1E7C7E69AB11C8AB425DD70 /* GPTableKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPTableKit.release.xcconfig; sourceTree = "<group>"; };
+		241C55AD2A3200CE22CF60C89CF93EE4 /* GPTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTableViewController.m; sourceTree = "<group>"; };
+		2A9A3508C9EA36AB0726DAC8D8F0A590 /* GPTableSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTableSection.m; sourceTree = "<group>"; };
 		3062A918BD3911B1A8C1A1F8B5F32CF8 /* Pods-GPTableKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPTableKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		36F35E1C5D0668352F6705D96E3D1983 /* Pods-GPTableKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPTableKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4170B9973623D7574F731C9A09ABCC98 /* GPTableKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GPTableKit-dummy.m"; sourceTree = "<group>"; };
 		43105395C5909570804AF4A0EB7972CA /* Pods-GPTableKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPTableKit_Tests.modulemap"; sourceTree = "<group>"; };
+		46241E8439181CFBAAD7603E7E0B4B09 /* GPTableKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPTableKit-prefix.pch"; sourceTree = "<group>"; };
 		4A7BBC0233002191215D36A4A437F829 /* Pods-GPTableKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPTableKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		58E6CCEEC33D968BDFE893EA362E0BFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4B99C5C1310790D3437F4C74528F342F /* NSArray+GPUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+GPUtil.h"; sourceTree = "<group>"; };
+		4CDF414441EDDD37DA9032A061727D35 /* GPTableDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPTableDataSource.h; sourceTree = "<group>"; };
+		602767D0D546C10BC80A889B830779FF /* GPTableKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPTableKit-umbrella.h"; sourceTree = "<group>"; };
+		670330CD97877E572F0F4556CC1F1285 /* GPTableViewDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPTableViewDelegateProxy.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		85D50FDA6A4D818794B2E05D2CCB5709 /* GPTableKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPTableKit.debug.xcconfig; sourceTree = "<group>"; };
-		87FD0D2A186228A0D507BBF8B7442235 /* GPTableKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GPTableKit.modulemap; sourceTree = "<group>"; };
+		75AA9E33F802ECCB5F29E4A032F4E00A /* GPTableKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GPTableKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85D4B903CFD7298E9451FDDED9F1BE61 /* NSArray+GPUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GPUtil.m"; sourceTree = "<group>"; };
+		867E79432C5568B78A952FEA7E2B2D75 /* GPTableSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPTableSection.h; sourceTree = "<group>"; };
+		891F31F6C0389EE88A11BA6AD8B136EC /* GPNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPNode.m; sourceTree = "<group>"; };
 		8DD8C5AED66A15C9F8BED33C9BC18FCA /* Pods-GPTableKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPTableKit_Example-dummy.m"; sourceTree = "<group>"; };
-		8DDEE28E4658F333F63C348EE89CBC5F /* GPTableKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPTableKit-prefix.pch"; sourceTree = "<group>"; };
 		92ECB58997D55A63C398071807BFEA16 /* Pods-GPTableKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPTableKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		95736EBB31C0EF27AD7CF8368B42152B /* Pods-GPTableKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPTableKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A08002A2EE54328C34C9A647C9481991 /* GPTableKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GPTableKit-Info.plist"; sourceTree = "<group>"; };
 		A0B2E4688E41A9C2098A42E467E1A93E /* Pods-GPTableKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPTableKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A3B6A09B60E8543898BA1D8534A395F2 /* Pods-GPTableKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPTableKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A6219E8A7DE9B5BCF766623AF80EC84B /* GPTableViewDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTableViewDelegateProxy.m; sourceTree = "<group>"; };
+		AA81EE3381FF8B667ECE788DD752581C /* GPTableKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPTableKit.debug.xcconfig; sourceTree = "<group>"; };
 		B29D97BEDDE6266AC611C6E26DFFEF3A /* Pods-GPTableKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPTableKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B69A6D6988F1CCD5A1C9BA1AE2CBF7FA /* GPNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPNode.h; sourceTree = "<group>"; };
 		B989A5C4B896E727628B60032BB16F12 /* GPTableKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GPTableKit; path = GPTableKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C64604CFC0024D9DCB00E873A3C60CC5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GPTableKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		C78C1F79F959FD993E4FE469B1FA9479 /* GPTableKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPTableKit-umbrella.h"; sourceTree = "<group>"; };
-		C79F3A7D18ACA07C4BB86757C7DB6E1D /* GPTableKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GPTableKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D23345B5B29EB47B4ACA74AB3EC8BE60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E5C7BC166F66E99D1A29D6EE0A430A87 /* GPTableKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GPTableKit-dummy.m"; sourceTree = "<group>"; };
+		BFB14735FFA9728DDB7D15DE1A6162D6 /* GPTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPTableViewController.h; sourceTree = "<group>"; };
+		CD2C7B6DFE4B86911F7883F0E1E270E3 /* GPTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTableViewCell.m; sourceTree = "<group>"; };
+		D60378C314A92DD9DB453C3A1E0E2B88 /* GPTableRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPTableRow.h; sourceTree = "<group>"; };
+		D880478CDEB4A394BAB3C15858E924B8 /* GPTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPTableView.h; sourceTree = "<group>"; };
+		DA76AE9D19212672E6257EF3539AA71E /* GPTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTableView.m; sourceTree = "<group>"; };
 		F3D9811BA480885B226734FD3791B4DA /* Pods-GPTableKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPTableKit_Example.modulemap"; sourceTree = "<group>"; };
 		F6242A0B5114D90E9241E7A51CC8FF06 /* Pods-GPTableKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GPTableKit_Example"; path = Pods_GPTableKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC81CD81B606E282BC85D0481E469039 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FF1E2964006D8CB551B59D99C75D6EF9 /* Pods-GPTableKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPTableKit_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,19 +115,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A050F71256C269BD2517C5C3B0463D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E3F97FB04D1566EF201CC16985F4E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AE6B4FEF7E3986E52C3E06881D0CE0C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C222F7FB6255E8FBB4180EC888E10D56 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7AA70E95EDD1DB0EB06D86D8A7C4974 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8610BC92487DA8A00E3836782E561839 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +141,14 @@
 				CB434715FC76500DBF51771540CFC131 /* Pods-GPTableKit_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1402CF68212C218085D9B34E4AC37C09 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				755E801C0E032DACD4198642BB14F3AE /* GPTableKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		16DCEE3304B61C3D0D922FCD2C5D159A /* Pods-GPTableKit_Example */ = {
@@ -136,15 +178,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		301485C879C30276EB1B4EAF61B8E281 /* GPTableKit */ = {
+		4CF14335F533F00BC85C619B5153D3E6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C64604CFC0024D9DCB00E873A3C60CC5 /* ReplaceMe.m */,
-				951B8AD65B84A2A5A7AE5C44CFB6E695 /* Pod */,
-				651316FBF74EB3F7922260CFF32565E5 /* Support Files */,
+				0A82A0C1C57BA951ED946F34B5254CFA /* GPTableKit.modulemap */,
+				4170B9973623D7574F731C9A09ABCC98 /* GPTableKit-dummy.m */,
+				09BABAE7A646114479A4AAA5E77D5547 /* GPTableKit-Info.plist */,
+				46241E8439181CFBAAD7603E7E0B4B09 /* GPTableKit-prefix.pch */,
+				602767D0D546C10BC80A889B830779FF /* GPTableKit-umbrella.h */,
+				AA81EE3381FF8B667ECE788DD752581C /* GPTableKit.debug.xcconfig */,
+				23D0D86BC1E7C7E69AB11C8AB425DD70 /* GPTableKit.release.xcconfig */,
 			);
-			name = GPTableKit;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GPTableKit";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -155,37 +201,68 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		651316FBF74EB3F7922260CFF32565E5 /* Support Files */ = {
+		5BA8748C876B9E4DC06D8824E061F731 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
-				87FD0D2A186228A0D507BBF8B7442235 /* GPTableKit.modulemap */,
-				E5C7BC166F66E99D1A29D6EE0A430A87 /* GPTableKit-dummy.m */,
-				A08002A2EE54328C34C9A647C9481991 /* GPTableKit-Info.plist */,
-				8DDEE28E4658F333F63C348EE89CBC5F /* GPTableKit-prefix.pch */,
-				C78C1F79F959FD993E4FE469B1FA9479 /* GPTableKit-umbrella.h */,
-				85D50FDA6A4D818794B2E05D2CCB5709 /* GPTableKit.debug.xcconfig */,
-				0A521E76BCE556C98C95DF6F6628852B /* GPTableKit.release.xcconfig */,
+				4CDF414441EDDD37DA9032A061727D35 /* GPTableDataSource.h */,
+				0E5CAC11E9B4B3957E73968CDDF9F023 /* GPTableDataSource.m */,
+				D60378C314A92DD9DB453C3A1E0E2B88 /* GPTableRow.h */,
+				209944480373F7B5F7C396596B49CE02 /* GPTableRow.m */,
+				867E79432C5568B78A952FEA7E2B2D75 /* GPTableSection.h */,
+				2A9A3508C9EA36AB0726DAC8D8F0A590 /* GPTableSection.m */,
+				670330CD97877E572F0F4556CC1F1285 /* GPTableViewDelegateProxy.h */,
+				A6219E8A7DE9B5BCF766623AF80EC84B /* GPTableViewDelegateProxy.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GPTableKit";
+			name = DataSource;
+			path = GPTableKit/Classes/DataSource;
 			sourceTree = "<group>";
 		};
-		951B8AD65B84A2A5A7AE5C44CFB6E695 /* Pod */ = {
+		755E801C0E032DACD4198642BB14F3AE /* GPTableKit */ = {
 			isa = PBXGroup;
 			children = (
-				C79F3A7D18ACA07C4BB86757C7DB6E1D /* GPTableKit.podspec */,
-				D23345B5B29EB47B4ACA74AB3EC8BE60 /* LICENSE */,
-				58E6CCEEC33D968BDFE893EA362E0BFA /* README.md */,
+				5BA8748C876B9E4DC06D8824E061F731 /* DataSource */,
+				7A2FEC8FBD5A4B37E8B1286D80864679 /* Node */,
+				E3C7B93A01889B13199A99C4C9064943 /* Pod */,
+				4CF14335F533F00BC85C619B5153D3E6 /* Support Files */,
+				AAD4503CC53D60CEDAC00821606CE5F2 /* Table */,
+				7C382EFA800CE4A0CBA0D2CAA104F7C8 /* Util */,
 			);
-			name = Pod;
+			name = GPTableKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		C9A745E94EAF1BA5AF69D457B3B68A51 /* Development Pods */ = {
+		7A2FEC8FBD5A4B37E8B1286D80864679 /* Node */ = {
 			isa = PBXGroup;
 			children = (
-				301485C879C30276EB1B4EAF61B8E281 /* GPTableKit */,
+				B69A6D6988F1CCD5A1C9BA1AE2CBF7FA /* GPNode.h */,
+				891F31F6C0389EE88A11BA6AD8B136EC /* GPNode.m */,
 			);
-			name = "Development Pods";
+			name = Node;
+			path = GPTableKit/Classes/Node;
+			sourceTree = "<group>";
+		};
+		7C382EFA800CE4A0CBA0D2CAA104F7C8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4B99C5C1310790D3437F4C74528F342F /* NSArray+GPUtil.h */,
+				85D4B903CFD7298E9451FDDED9F1BE61 /* NSArray+GPUtil.m */,
+			);
+			name = Util;
+			path = GPTableKit/Classes/Util;
+			sourceTree = "<group>";
+		};
+		AAD4503CC53D60CEDAC00821606CE5F2 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				D880478CDEB4A394BAB3C15858E924B8 /* GPTableView.h */,
+				DA76AE9D19212672E6257EF3539AA71E /* GPTableView.m */,
+				211BED5DBB5892F0B7FEC026EA191571 /* GPTableViewCell.h */,
+				CD2C7B6DFE4B86911F7883F0E1E270E3 /* GPTableViewCell.m */,
+				BFB14735FFA9728DDB7D15DE1A6162D6 /* GPTableViewController.h */,
+				241C55AD2A3200CE22CF60C89CF93EE4 /* GPTableViewController.m */,
+			);
+			name = Table;
+			path = GPTableKit/Classes/Table;
 			sourceTree = "<group>";
 		};
 		CB434715FC76500DBF51771540CFC131 /* Pods-GPTableKit_Tests */ = {
@@ -208,7 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C9A745E94EAF1BA5AF69D457B3B68A51 /* Development Pods */,
+				1402CF68212C218085D9B34E4AC37C09 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2671F57594A77081D6E173E5C6CC5995 /* Products */,
 				0361BE28C065862B30F6C845E98B3B83 /* Targets Support Files */,
@@ -221,6 +298,16 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3C7B93A01889B13199A99C4C9064943 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				75AA9E33F802ECCB5F29E4A032F4E00A /* GPTableKit.podspec */,
+				0F299DB34B6CA5A3DDEAEBC5D7007A27 /* LICENSE */,
+				FC81CD81B606E282BC85D0481E469039 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,11 +329,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3F8EA64BB7CC0A80533E192A164627C /* Headers */ = {
+		87C2D26AE6512B3F135A0336F35D615E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DFC680B42A3E35D76CF678330042021 /* GPTableKit-umbrella.h in Headers */,
+				7A6783357DB115B6160451E1B58AFBC6 /* GPNode.h in Headers */,
+				D3A32D9F2798922A240277156F357485 /* GPTableDataSource.h in Headers */,
+				4FB7EC66BE076141C29F72CCE7F3E64C /* GPTableKit-umbrella.h in Headers */,
+				9A6E5BC79D8DDB3664DD47D3AD56AA40 /* GPTableRow.h in Headers */,
+				D6B758706FBD528FEA61E1C3EBB44D45 /* GPTableSection.h in Headers */,
+				22998D8CE64E7777A6649640E6A04B63 /* GPTableView.h in Headers */,
+				F388D45CD29FC0D7C60C40724AA81567 /* GPTableViewCell.h in Headers */,
+				81EDC2F214ED53F99A37ABC473B640CD /* GPTableViewController.h in Headers */,
+				2A6ED42966545A5E4AC6067F40613433 /* GPTableViewDelegateProxy.h in Headers */,
+				C6B84AE5AAA0D928E1830F8D69D7AFB0 /* NSArray+GPUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +351,12 @@
 /* Begin PBXNativeTarget section */
 		4C30DCE461939A52A57A18E7141D7B56 /* GPTableKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F0D075B0BBF8C14890C824D1949DEF1 /* Build configuration list for PBXNativeTarget "GPTableKit" */;
+			buildConfigurationList = 7712904CAD8C26130BAFCF7020580CBC /* Build configuration list for PBXNativeTarget "GPTableKit" */;
 			buildPhases = (
-				F3F8EA64BB7CC0A80533E192A164627C /* Headers */,
-				080963174F5A404D29E64DD89FBB45BF /* Sources */,
-				D7AA70E95EDD1DB0EB06D86D8A7C4974 /* Frameworks */,
-				2ACB6188A8159B033EF9B06307DC6807 /* Resources */,
+				87C2D26AE6512B3F135A0336F35D615E /* Headers */,
+				1F749CADFAAFD736E10FDB3557C4A499 /* Sources */,
+				9A050F71256C269BD2517C5C3B0463D3 /* Frameworks */,
+				3A6627A0BF4A125AF877FEBC630E0370 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +379,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9B4A2805E5F679216606446DA22998BD /* PBXTargetDependency */,
+				E88FAA20A6D6F895F8BE9C32ECA1B753 /* PBXTargetDependency */,
 			);
 			name = "Pods-GPTableKit_Example";
 			productName = Pods_GPTableKit_Example;
@@ -302,7 +398,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				812A81682F979DD828B69940AE1392F8 /* PBXTargetDependency */,
+				DE886C8C654750DBD3EA9A69CE540002 /* PBXTargetDependency */,
 			);
 			name = "Pods-GPTableKit_Tests";
 			productName = Pods_GPTableKit_Tests;
@@ -339,7 +435,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2ACB6188A8159B033EF9B06307DC6807 /* Resources */ = {
+		3A6627A0BF4A125AF877FEBC630E0370 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +459,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		080963174F5A404D29E64DD89FBB45BF /* Sources */ = {
+		1F749CADFAAFD736E10FDB3557C4A499 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D37E4E673803F6B9119A4130F896F979 /* GPTableKit-dummy.m in Sources */,
-				334DC78CCBF6C5D5EFD18EDCBF777A7D /* ReplaceMe.m in Sources */,
+				545966B8C2B0D1BA8A94E402FA60B4D0 /* GPNode.m in Sources */,
+				5557C052C0A2FA66E2D1BEBA315C1875 /* GPTableDataSource.m in Sources */,
+				75C551A0D1D9DE31705874498E78CB58 /* GPTableKit-dummy.m in Sources */,
+				4B4331142B413264015AC3E94D86CAC8 /* GPTableRow.m in Sources */,
+				BE7A75F30529FA91893DDDF89EB3C92F /* GPTableSection.m in Sources */,
+				9FFB4D1C3242C54794D9D7AD94B9FF93 /* GPTableView.m in Sources */,
+				8557383109EE802BF39757510BF11FC0 /* GPTableViewCell.m in Sources */,
+				5C3E221EECAD72155C492F82D8612854 /* GPTableViewController.m in Sources */,
+				94BBBB7B40868C770118E90038EB0AE7 /* GPTableViewDelegateProxy.m in Sources */,
+				ADE40962971C2F446A8F73F9B32E0243 /* NSArray+GPUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +495,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		812A81682F979DD828B69940AE1392F8 /* PBXTargetDependency */ = {
+		DE886C8C654750DBD3EA9A69CE540002 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GPTableKit_Example";
 			target = 65E7029A3FEE3DF7EDEA7D9A20834960 /* Pods-GPTableKit_Example */;
-			targetProxy = CF658DB348D66E7E2620DD42C7A3E6D5 /* PBXContainerItemProxy */;
+			targetProxy = 9A02C2894F50CB443A12EB746FE7FF29 /* PBXContainerItemProxy */;
 		};
-		9B4A2805E5F679216606446DA22998BD /* PBXTargetDependency */ = {
+		E88FAA20A6D6F895F8BE9C32ECA1B753 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GPTableKit;
 			target = 4C30DCE461939A52A57A18E7141D7B56 /* GPTableKit */;
-			targetProxy = D0A33E5F314DA997EB74252BCA09A6E6 /* PBXContainerItemProxy */;
+			targetProxy = 65D07CF4351CD0B61ED08D838160E56A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -440,9 +544,9 @@
 			};
 			name = Release;
 		};
-		25214B86931E069FDE0A7757BAAC9F77 /* Release */ = {
+		122DBA92F45BF1BDC380FE4613CC4E52 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A521E76BCE556C98C95DF6F6628852B /* GPTableKit.release.xcconfig */;
+			baseConfigurationReference = 23D0D86BC1E7C7E69AB11C8AB425DD70 /* GPTableKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -506,9 +610,9 @@
 			};
 			name = Release;
 		};
-		6A61ED0738ABF1EC24BB90A4E4E4E19B /* Debug */ = {
+		6DC2A0F43D74ADDD06DDD5877E56D5F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85D50FDA6A4D818794B2E05D2CCB5709 /* GPTableKit.debug.xcconfig */;
+			baseConfigurationReference = AA81EE3381FF8B667ECE788DD752581C /* GPTableKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -734,15 +838,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F0D075B0BBF8C14890C824D1949DEF1 /* Build configuration list for PBXNativeTarget "GPTableKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6A61ED0738ABF1EC24BB90A4E4E4E19B /* Debug */,
-				25214B86931E069FDE0A7757BAAC9F77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -757,6 +852,15 @@
 			buildConfigurations = (
 				CB326372CE66DC932D70E9FCE99EEED0 /* Debug */,
 				5133AA01210753C6DD49AC03A280565F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7712904CAD8C26130BAFCF7020580CBC /* Build configuration list for PBXNativeTarget "GPTableKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC2A0F43D74ADDD06DDD5877E56D5F8 /* Debug */,
+				122DBA92F45BF1BDC380FE4613CC4E52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
