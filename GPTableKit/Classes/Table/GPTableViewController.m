@@ -23,7 +23,6 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     self.tableViewStyle = UITableViewStyleGrouped;
-    //
 }
 
 - (void)viewDidLoad {
