@@ -7,6 +7,8 @@
 //
 
 #import "GPViewController.h"
+#import "GPCustomTableSection.h"
+#import "GPCustomTableRow.h"
 
 @interface GPViewController ()
 
@@ -14,16 +16,24 @@
 
 @implementation GPViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.navigationItem.title = @"GPTableKit Demo";
+    
+    for (NSInteger i = 0; i < 10; i++) {
+        GPCustomTableSection *section = [[GPCustomTableSection alloc] init];
+        [self.dataSource addSection:section];
+        for (NSInteger j = 0; j < 10; j++) {
+            GPCustomTableRow *row = [[GPCustomTableRow alloc] init];
+            row.title = [NSString stringWithFormat:@"联系人 %@", [NSNumber numberWithInteger:j]];
+            row.subtitle = [NSString stringWithFormat:@"联系电话 18800001234"];
+            row.selectedBlock = ^(UITableView * _Nonnull tableView, NSIndexPath * _Nonnull indexPath) {
+                NSLog(@"click at (%@, %@)", [NSNumber numberWithInteger:indexPath.section], [NSNumber numberWithInteger:indexPath.row]);
+            };
+            [section addRow:row];
+        }
+    }
+    [self.tableView reloadData];
 }
 
 @end

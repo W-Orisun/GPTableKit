@@ -7,7 +7,8 @@
 //
 
 @import UIKit;
+@import GPTableKit;
 
-@interface GPViewController : UIViewController
+@interface GPViewController : GPTableViewController
 
 @end
