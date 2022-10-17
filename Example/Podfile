@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GPTableKit_Example' do
+  pod 'GPTableKit', :path => '../'
+
+  target 'GPTableKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
