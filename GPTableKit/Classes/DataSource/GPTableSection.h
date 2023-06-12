@@ -13,6 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 @class GPTableRow;
 
 @interface GPTableSection : GPNode
+/// Default is CGFLOAT_MIN returned in (tableView:heightForHeaderInSection:)
+@property (nonatomic, assign) CGFloat headerHeight;
+/// Default is CGFLOAT_MIN returned in (tableView:heightForFooterInSection:)
+@property (nonatomic, assign) CGFloat footerHeight;
 
 - (NSUInteger)section;
 
@@ -23,7 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setAllRows:(NSArray<GPTableRow *> *)rows;
 - (nullable GPTableRow *)rowAtIndex:(NSUInteger)index;
 
-- (BOOL)autoAdjustHeaderFooterHeight;
+- (BOOL)autoAdjustHeaderHeight;
+- (BOOL)autoAdjustFooterHeight;
 - (nullable UITableViewHeaderFooterView *)tableView:(GPTableView *)tableView viewForHeaderInSection:(NSInteger)section;
 - (nullable UITableViewHeaderFooterView *)tableView:(GPTableView *)tableView viewForFooterInSection:(NSInteger)section;
 - (CGFloat)tableView:(GPTableView *)tableView heightForHeaderInSection:(NSInteger)section;

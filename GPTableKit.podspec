@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'GPTableKit/Classes/**/*'
+  s.prefix_header_contents = '#import "NSArray+GPUtil.h"'
   
   # s.resource_bundles = {
   #   'GPTableKit' => ['GPTableKit/Assets/*.png']

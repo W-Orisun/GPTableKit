@@ -9,7 +9,7 @@
 
 @implementation NSArray (GPUtil)
 
-- (NSArray *)compactMap:(id  _Nonnull (^)(id _Nonnull))lambda {
+- (NSArray *)gp_compactMap:(id  _Nonnull (^)(id _Nonnull))lambda {
     if (!lambda) {
         return [NSArray array];
     }
@@ -23,7 +23,7 @@
     return [array copy];
 }
 
-- (id)safeObjectAtIndex:(NSUInteger)index {
+- (id)gp_safeObjectAtIndex:(NSUInteger)index {
     if (index >= 0 && index < self.count) {
         return self[index];
     }

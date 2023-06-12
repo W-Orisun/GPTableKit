@@ -44,6 +44,15 @@
     }
 }
 
+- (UITableViewCell *)cellForTableView:(UITableView *)tableView indexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[self reuseIdentifier]];
+    self.tableView = tableView;
+    if (!cell) {
+        cell = [self createNewTableViewCellForRow];
+    }
+    return cell;
+}
+
 - (void)updateCell:(UITableViewCell *)cell indexPath:(NSIndexPath *)indexPath {
     
 }

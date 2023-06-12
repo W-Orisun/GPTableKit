@@ -8,7 +8,6 @@
 #import "GPTableDataSource.h"
 #import "GPTableSection.h"
 #import "GPTableRow.h"
-#import "NSArray+GPUtil.h"
 
 @implementation GPTableDataSource
 
@@ -37,12 +36,12 @@
 }
 
 - (GPTableSection *)sectionAtIndex:(NSUInteger)index {
-    return [[self allSections] safeObjectAtIndex:index];
+    return [[self allSections] gp_safeObjectAtIndex:index];
 }
 
 - (GPTableRow *)rowAtIndexPath:(NSIndexPath *)indexPath {
     GPTableSection *section = [self sectionAtIndex:indexPath.section];
-    return [[section allRows] safeObjectAtIndex:indexPath.row];
+    return [[section allRows] gp_safeObjectAtIndex:indexPath.row];
 }
 
 #pragma mark - UITableViewDataSource
@@ -56,11 +55,7 @@
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     GPTableRow *row = [self rowAtIndexPath:indexPath];
-    row.tableView = tableView;
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[row reuseIdentifier]];
-    if (!cell) {
-        cell = [row createNewTableViewCellForRow];
-    }
+    UITableViewCell *cell = [row cellForTableView:tableView indexPath:indexPath];
     if (cell) {
         [row updateCell:cell indexPath:indexPath];
     }

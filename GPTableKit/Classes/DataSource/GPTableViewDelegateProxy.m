@@ -124,7 +124,7 @@
     if ([tableView.dataSource isKindOfClass:[GPTableDataSource class]]) {
         GPTableDataSource *dataSource = (id)tableView.dataSource;
         GPTableSection *tableSection = [dataSource sectionAtIndex:section];
-        if ([tableSection autoAdjustHeaderFooterHeight]) {
+        if ([tableSection autoAdjustHeaderHeight]) {
             return UITableViewAutomaticDimension;
         } else {
             return [tableSection tableView:tableView heightForHeaderInSection:section];
@@ -140,7 +140,7 @@
     if ([tableView.dataSource isKindOfClass:[GPTableDataSource class]]) {
         GPTableDataSource *dataSource = (id)tableView.dataSource;
         GPTableSection *tableSection = [dataSource sectionAtIndex:section];
-        if ([tableSection autoAdjustHeaderFooterHeight]) {
+        if ([tableSection autoAdjustFooterHeight]) {
             return UITableViewAutomaticDimension;
         } else {
             return [tableSection tableView:tableView heightForFooterInSection:section];

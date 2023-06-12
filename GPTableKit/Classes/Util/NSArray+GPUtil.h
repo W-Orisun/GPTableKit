@@ -9,10 +9,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+#define gp_guard(CONDITION) if (CONDITION) {}
+
 @interface NSArray<ObjectType> (GPUtil)
 
-- (NSArray *)compactMap:(id(^)(ObjectType))lambda;
-- (nullable ObjectType)safeObjectAtIndex:(NSUInteger)index;
+- (NSArray *)gp_compactMap:(id(^)(ObjectType))lambda;
+- (nullable ObjectType)gp_safeObjectAtIndex:(NSUInteger)index;
 
 @end
 

@@ -7,9 +7,17 @@
 
 #import "GPTableSection.h"
 #import "GPTableRow.h"
-#import "NSArray+GPUtil.h"
 
 @implementation GPTableSection
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        self.headerHeight = CGFLOAT_MIN;
+        self.footerHeight = CGFLOAT_MIN;
+    }
+    return self;
+}
 
 - (NSUInteger)section {
     return [self nodeIndex];
@@ -36,11 +44,15 @@
 }
 
 - (GPTableRow *)rowAtIndex:(NSUInteger)index {
-    return (GPTableRow *)[[self children] safeObjectAtIndex:index];
+    return (GPTableRow *)[[self children] gp_safeObjectAtIndex:index];
 }
 
 #pragma mark - header & footer
-- (BOOL)autoAdjustHeaderFooterHeight {
+- (BOOL)autoAdjustHeaderHeight {
+    return NO;
+}
+
+- (BOOL)autoAdjustFooterHeight {
     return NO;
 }
 
@@ -53,11 +65,11 @@
 }
 
 - (CGFloat)tableView:(GPTableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return CGFLOAT_MIN;
+    return self.headerHeight;
 }
 
 - (CGFloat)tableView:(GPTableView *)tableView heightForFooterInSection:(NSInteger)section {
-    return CGFLOAT_MIN;
+    return self.footerHeight;
 }
 
 @end
