@@ -34,6 +34,10 @@ typedef void (^GPTableRowSelectedBlock)(UITableView * _Nonnull tableView, NSInde
 /// 需要子类重写去更新cell，会在cellForRowAtIndexPath调用
 - (void)updateCell:(UITableViewCell *)cell indexPath:(NSIndexPath *)indexPath NS_REQUIRES_SUPER;
 
+// delegate for override
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath;
+- (void)tableView:(UITableView *)tableView didEndDisplayingCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath*)indexPath;
+
 @end
 
 NS_ASSUME_NONNULL_END

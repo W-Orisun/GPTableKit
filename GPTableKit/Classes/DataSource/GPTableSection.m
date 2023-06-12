@@ -56,20 +56,28 @@
     return NO;
 }
 
-- (UITableViewHeaderFooterView *)tableView:(GPTableView *)tableView viewForHeaderInSection:(NSInteger)section {
+- (UITableViewHeaderFooterView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     return nil;
 }
 
-- (UITableViewHeaderFooterView *)tableView:(GPTableView *)tableView viewForFooterInSection:(NSInteger)section {
+- (UITableViewHeaderFooterView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
     return nil;
 }
 
-- (CGFloat)tableView:(GPTableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return self.headerHeight;
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
+    
 }
 
-- (CGFloat)tableView:(GPTableView *)tableView heightForFooterInSection:(NSInteger)section {
-    return self.footerHeight;
+- (void)tableView:(UITableView *)tableView willDisplayFooterView:(UIView *)view forSection:(NSInteger)section {
+    
+}
+
+- (void)tableView:(UITableView *)tableView didEndDisplayingHeaderView:(UIView *)view forSection:(NSInteger)section {
+    
+}
+
+- (void)tableView:(UITableView *)tableView didEndDisplayingFooterView:(UIView *)view forSection:(NSInteger)section {
+    
 }
 
 @end

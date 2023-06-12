@@ -13,9 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 @class GPTableRow;
 
 @interface GPTableSection : GPNode
-/// Default is CGFLOAT_MIN returned in (tableView:heightForHeaderInSection:)
+/// Default is CGFLOAT_MIN
 @property (nonatomic, assign) CGFloat headerHeight;
-/// Default is CGFLOAT_MIN returned in (tableView:heightForFooterInSection:)
+/// Default is CGFLOAT_MIN
 @property (nonatomic, assign) CGFloat footerHeight;
 
 - (NSUInteger)section;
@@ -29,10 +29,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (BOOL)autoAdjustHeaderHeight;
 - (BOOL)autoAdjustFooterHeight;
-- (nullable UITableViewHeaderFooterView *)tableView:(GPTableView *)tableView viewForHeaderInSection:(NSInteger)section;
-- (nullable UITableViewHeaderFooterView *)tableView:(GPTableView *)tableView viewForFooterInSection:(NSInteger)section;
-- (CGFloat)tableView:(GPTableView *)tableView heightForHeaderInSection:(NSInteger)section;
-- (CGFloat)tableView:(GPTableView *)tableView heightForFooterInSection:(NSInteger)section;
+
+// delegate for override
+- (nullable UITableViewHeaderFooterView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section;
+- (nullable UITableViewHeaderFooterView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section;
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section;
+- (void)tableView:(UITableView *)tableView willDisplayFooterView:(UIView *)view forSection:(NSInteger)section;
+- (void)tableView:(UITableView *)tableView didEndDisplayingHeaderView:(UIView *)view forSection:(NSInteger)section;
+- (void)tableView:(UITableView *)tableView didEndDisplayingFooterView:(UIView *)view forSection:(NSInteger)section;
 
 @end
 
