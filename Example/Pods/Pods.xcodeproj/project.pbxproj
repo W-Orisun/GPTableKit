@@ -59,7 +59,7 @@
 		0A82A0C1C57BA951ED946F34B5254CFA /* GPTableKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GPTableKit.modulemap; sourceTree = "<group>"; };
 		0E5CAC11E9B4B3957E73968CDDF9F023 /* GPTableDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTableDataSource.m; sourceTree = "<group>"; };
 		0F1BC9602BAE07CC04086E66493FECF5 /* Pods-GPTableKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPTableKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0F299DB34B6CA5A3DDEAEBC5D7007A27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0F299DB34B6CA5A3DDEAEBC5D7007A27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1470C5A940260AFEAC99EB6C2E348F03 /* Pods-GPTableKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GPTableKit_Tests"; path = Pods_GPTableKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D6C3507C35CF8E678F54FAB56258C2 /* Pods-GPTableKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPTableKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		17CF55AEE08A4B1DF62EDCE34478C75F /* Pods-GPTableKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPTableKit_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -80,14 +80,14 @@
 		602767D0D546C10BC80A889B830779FF /* GPTableKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPTableKit-umbrella.h"; sourceTree = "<group>"; };
 		670330CD97877E572F0F4556CC1F1285 /* GPTableViewDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPTableViewDelegateProxy.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75AA9E33F802ECCB5F29E4A032F4E00A /* GPTableKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GPTableKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		75AA9E33F802ECCB5F29E4A032F4E00A /* GPTableKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GPTableKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		85D4B903CFD7298E9451FDDED9F1BE61 /* NSArray+GPUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GPUtil.m"; sourceTree = "<group>"; };
 		867E79432C5568B78A952FEA7E2B2D75 /* GPTableSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPTableSection.h; sourceTree = "<group>"; };
 		891F31F6C0389EE88A11BA6AD8B136EC /* GPNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPNode.m; sourceTree = "<group>"; };
 		8DD8C5AED66A15C9F8BED33C9BC18FCA /* Pods-GPTableKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPTableKit_Example-dummy.m"; sourceTree = "<group>"; };
 		92ECB58997D55A63C398071807BFEA16 /* Pods-GPTableKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPTableKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		95736EBB31C0EF27AD7CF8368B42152B /* Pods-GPTableKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPTableKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0B2E4688E41A9C2098A42E467E1A93E /* Pods-GPTableKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPTableKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A3B6A09B60E8543898BA1D8534A395F2 /* Pods-GPTableKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPTableKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A6219E8A7DE9B5BCF766623AF80EC84B /* GPTableViewDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTableViewDelegateProxy.m; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		DA76AE9D19212672E6257EF3539AA71E /* GPTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTableView.m; sourceTree = "<group>"; };
 		F3D9811BA480885B226734FD3791B4DA /* Pods-GPTableKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GPTableKit_Example.modulemap"; sourceTree = "<group>"; };
 		F6242A0B5114D90E9241E7A51CC8FF06 /* Pods-GPTableKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GPTableKit_Example"; path = Pods_GPTableKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC81CD81B606E282BC85D0481E469039 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FC81CD81B606E282BC85D0481E469039 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FF1E2964006D8CB551B59D99C75D6EF9 /* Pods-GPTableKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPTableKit_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -544,7 +544,7 @@
 			};
 			name = Release;
 		};
-		122DBA92F45BF1BDC380FE4613CC4E52 /* Release */ = {
+		494700E683377ADB9A149C81CAD13110 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23D0D86BC1E7C7E69AB11C8AB425DD70 /* GPTableKit.release.xcconfig */;
 			buildSettings = {
@@ -568,7 +568,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.4;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -609,37 +609,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6DC2A0F43D74ADDD06DDD5877E56D5F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA81EE3381FF8B667ECE788DD752581C /* GPTableKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GPTableKit/GPTableKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GPTableKit/GPTableKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GPTableKit/GPTableKit.modulemap";
-				PRODUCT_MODULE_NAME = GPTableKit;
-				PRODUCT_NAME = GPTableKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -696,7 +665,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -729,6 +699,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF02E64D7C0578518DBBD8B96355869D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA81EE3381FF8B667ECE788DD752581C /* GPTableKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GPTableKit/GPTableKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GPTableKit/GPTableKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GPTableKit/GPTableKit.modulemap";
+				PRODUCT_MODULE_NAME = GPTableKit;
+				PRODUCT_NAME = GPTableKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -858,8 +859,8 @@
 		7712904CAD8C26130BAFCF7020580CBC /* Build configuration list for PBXNativeTarget "GPTableKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DC2A0F43D74ADDD06DDD5877E56D5F8 /* Debug */,
-				122DBA92F45BF1BDC380FE4613CC4E52 /* Release */,
+				BF02E64D7C0578518DBBD8B96355869D /* Debug */,
+				494700E683377ADB9A149C81CAD13110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

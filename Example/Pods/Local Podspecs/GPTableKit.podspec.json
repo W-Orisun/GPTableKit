@@ -1,9 +1,8 @@
 {
   "name": "GPTableKit",
-  "version": "0.1.0",
-  "summary": "A short description of GPTableKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Orisun/GPTableKit",
+  "version": "1.0.0",
+  "summary": "Display tableView using sections and rows.",
+  "homepage": "https://github.com/GraveParty/GPTableKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -11,12 +10,15 @@
   "authors": {
     "Orisun": "wdyang13@163.com"
   },
-  "source": {
-    "git": "https://github.com/Orisun/GPTableKit.git",
-    "tag": "0.1.0"
-  },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "GPTableKit/Classes/**/*"
+  "swift_versions": "5.4",
+  "source_files": "GPTableKit/Classes/**/*",
+  "prefix_header_contents": "#import \"NSArray+GPUtil.h\"",
+  "source": {
+    "git": "https://github.com/GraveParty/GPTableKit.git",
+    "tag": "1.0.0"
+  },
+  "swift_version": "5.4"
 }
