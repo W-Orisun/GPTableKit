@@ -17,13 +17,17 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)addChild:(GPNode *)node;
 - (void)addChildren:(NSArray<GPNode *> *)nodes;
 
+/// Index is safe without out of range exception.
 - (void)insertChild:(GPNode *)node atIndex:(NSUInteger)index;
+/// Index is safe without out of range exception.
 - (void)insertChildren:(NSArray<GPNode *> *)nodes atIndex:(NSUInteger)index;
 - (void)insertChild:(GPNode *)node beforeNode:(GPNode *)siblingNode;
 - (void)insertChild:(GPNode *)node afterNode:(GPNode *)siblingNode;
 - (void)insertChildren:(NSArray<GPNode *> *)nodes beforeNode:(GPNode *)siblingNode;
 - (void)insertChildren:(NSArray<GPNode *> *)nodes afterNode:(GPNode *)siblingNode;
 
+/// Index is safe without out of range exception.
+- (void)removeChildAtIndex:(NSUInteger)index;
 - (void)removeChild:(GPNode *)node;
 - (void)removeAllChildren;
 - (void)removeFromParent;

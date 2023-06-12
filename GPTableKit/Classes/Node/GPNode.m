@@ -18,38 +18,34 @@
 #pragma mark - add
 - (void)addChild:(GPNode *)node {
     if ([node isKindOfClass:[GPNode class]]) {
-        @synchronized (self) {
-            node.parent = self;
-            if (!_children) {
-                _children = [NSMutableArray array];
-            }
-            [_children addObject:node];
+        node.parent = self;
+        if (!_children) {
+            _children = [NSMutableArray array];
         }
+        [_children addObject:node];
     }
 }
 
 - (void)addChildren:(NSArray<GPNode *> *)nodes {
-    [nodes enumerateObjectsUsingBlock:^(GPNode * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [self addChild:obj];
+    [nodes enumerateObjectsUsingBlock:^(GPNode * _Nonnull node, NSUInteger idx, BOOL * _Nonnull stop) {
+        [self addChild:node];
     }];
 }
 
 #pragma mark - insert
 - (void)insertChild:(GPNode *)node atIndex:(NSUInteger)index {
     if ([node isKindOfClass:[GPNode class]] && index >= 0 && index <= _children.count) {
-        @synchronized (self) {
-            node.parent = self;
-            if (!_children) {
-                _children = [NSMutableArray array];
-            }
-            [_children insertObject:node atIndex:index];
+        node.parent = self;
+        if (!_children) {
+            _children = [NSMutableArray array];
         }
+        [_children insertObject:node atIndex:index];
     }
 }
 
 - (void)insertChildren:(NSArray<GPNode *> *)nodes atIndex:(NSUInteger)index {
-    [nodes enumerateObjectsUsingBlock:^(GPNode * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [self insertChild:obj atIndex:index];
+    [nodes enumerateObjectsUsingBlock:^(GPNode * _Nonnull node, NSUInteger idx, BOOL * _Nonnull stop) {
+        [self insertChild:node atIndex:index + idx];
     }];
 }
 
@@ -91,21 +87,23 @@
 
 #pragma mark - remove
 - (void)removeChild:(GPNode *)node {
-    @synchronized (self) {
-        if ([node isKindOfClass:[GPNode class]] && [_children containsObject:node]) {
-            [_children removeObject:node];
-            node.parent = nil;
-        }
+    if ([node isKindOfClass:[GPNode class]] && [_children containsObject:node]) {
+        [_children removeObject:node];
+        node.parent = nil;
+    }
+}
+
+- (void)removeChildAtIndex:(NSUInteger)index {
+    if (index >= 0 && index < _children.count) {
+        [_children removeObjectAtIndex:index];
     }
 }
 
 - (void)removeAllChildren {
-    @synchronized (self) {
-        for (GPNode *node in _children) {
-            node.parent = nil;
-        }
-        _children = [NSMutableArray array];
+    for (GPNode *node in _children) {
+        node.parent = nil;
     }
+    _children = [NSMutableArray array];
 }
 
 - (void)removeFromParent {
