@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name             = 'GPTableKit'
   s.version          = '1.0.0'
-  s.summary          = 'Display tableView using sections and rows.'
+  s.summary          = 'Manage tableView using sections and rows.'
   s.homepage         = 'https://github.com/GraveParty/GPTableKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Orisun' => 'wdyang13@163.com' }

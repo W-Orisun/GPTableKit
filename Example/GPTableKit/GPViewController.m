@@ -21,7 +21,7 @@
     self.navigationItem.title = @"GPTableKit Demo";
     
     CustomSection *section = [[CustomSection alloc] init];
-    [self.dataSource addChild:section];
+    [self.dataSource addSection:section];
     for (NSInteger i = 1; i <= 30; i++) {
         CustomRow *row = [[CustomRow alloc] init];
         [section addRow:row];

@@ -1,15 +1,114 @@
 # GPTableKit
 
-[![CI Status](https://img.shields.io/travis/Orisun/GPTableKit.svg?style=flat)](https://travis-ci.org/Orisun/GPTableKit)
-[![Version](https://img.shields.io/cocoapods/v/GPTableKit.svg?style=flat)](https://cocoapods.org/pods/GPTableKit)
-[![License](https://img.shields.io/cocoapods/l/GPTableKit.svg?style=flat)](https://cocoapods.org/pods/GPTableKit)
-[![Platform](https://img.shields.io/cocoapods/p/GPTableKit.svg?style=flat)](https://cocoapods.org/pods/GPTableKit)
+Manage tableView using sections and rows.
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+### ViewController
+
+`GPTableDataSource` => `GPTableSection` => `GPTableRow` and `GPTableViewCell`
+
+```objc
+@implementation SubclassFromGPTableViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    SubclassFromGPTableSection *section = [[SubclassFromGPTableSection alloc] init];
+    [self.dataSource addSection:section];
+    
+    for (NSInteger i = 1; i <= 30; i++) {
+        SubclassFromGPTableRow *row = [[SubclassFromGPTableRow alloc] init];
+        [section addRow:row];
+    }
+    
+    [self.tableView reloadData];
+}
+
+@end
+```
+
+### Section
+
+Just use `GPTableSection` without header and footer.
+
+```objc
+@implementation SubclassFromGPTableSection
+
+- (UITableViewHeaderFooterView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    ...
+}
+
+- (CGFloat)headerHeight {
+    return 20;
+}
+
+// use 'autoAdjustHeaderHeight' instead of 'headerHeight' for autoLayout
+- (BOOL)autoAdjustHeaderHeight {
+    return YES;
+}
+
+@end
+```
+
+### Row
+
+```objc
+@interface SubclassFromGPTableRow : GPTableRow
+@property (nonatomic, copy) NSString *title;
+...
+@end
+
+@implementation CustomRow
+
+- (void)updateCell:(SubclassFromGPTableRowCell *)cell indexPath:(NSIndexPath *)indexPath {
+    [super updateCell:cell indexPath:indexPath];
+    cell.titleLabel.text = self.title;
+    ...
+        
+	//select
+    self.selectedBlock = ^(UITableView * _Nonnull tableView, NSIndexPath * _Nonnull indexPath) {
+    	...
+    };
+}
+
+- (CGFloat)cellHeight {
+    return 50;
+}
+
+// use 'autoAdjustCellHeight' instead of 'cellHeight' for autoLayout
+- (BOOL)autoAdjustCellHeight {
+    return YES;
+}
+
+@end
+```
+
+### RowCell
+
+Must name subclass with 'XXXRowCell'.
+
+```objc
+@interface SubclassFromGPTableRowCell : GPTableViewCell
+@property (nonatomic, strong) UILabel *titleLabel;
+...
+@end
+
+@implementation SubclassFromGPTableRowCell
+
+- (void)cellDidCreate {
+    [super cellDidCreate];
+    self.titleLabel = [[UILabel alloc] init];
+    ...
+}
+
+@end
+```
 
 ## Requirements
+
+- iOS 10.0+
+- Swift 5.4+
 
 ## Installation
 
